@@ -83,8 +83,8 @@ function renderLicenseBadge(license) {
   ${data.tests}
   
   ## Questions
-  - [GitHub](${data.githubUsername})
-  - [Email](${data.emailAddress})`;
+ If you have any questions about this project, please reach out to me at [Email](${data.emailAddress}),
+ You can also find more of my work at my [GitHub](${data.githubUsername})`;
   }
   
   module.exports = generateMarkdown;
